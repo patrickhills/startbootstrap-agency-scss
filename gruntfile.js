@@ -30,7 +30,6 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'css/screen.css': 'scss/screen.scss',
-                    //'editor-style.css': 'scss/editor-style.scss'
                 }
             }
         },
@@ -101,11 +100,11 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'js/plugins.min.js': [
-                        'js/source/bootstrap.js',
-                        'js/vendor/cbpAnimatedHeader.js',
+                        'js/vendor/jquery-ui.min.js',
                         'js/vendor/classie.js',
+                        'js/vendor/cbpAnimatedHeader.min.js',
                         'js/vendor/contact_me.js',
-                        'js/vendor/jquery-1.11.0.js',
+                        'js/vendor/jqBootstrapValidation.js',
                     ]
                 }
             },
